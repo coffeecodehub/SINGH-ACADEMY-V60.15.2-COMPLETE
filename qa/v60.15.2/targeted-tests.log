@@ -1,0 +1,112 @@
+TAP version 13
+# Subtest: /free-resources: GET returns terminal native HTTP 404 with no script or account reflection
+ok 1 - /free-resources: GET returns terminal native HTTP 404 with no script or account reflection
+  ---
+  duration_ms: 14.586882
+  type: 'test'
+  ...
+# Subtest: /free-resources: HEAD returns exactly the same status and headers as GET but no body
+ok 2 - /free-resources: HEAD returns exactly the same status and headers as GET but no body
+  ---
+  duration_ms: 6.789885
+  type: 'test'
+  ...
+# Subtest: /free-resources: old streamed page is absent; tombstone is not a new public-page exception
+ok 3 - /free-resources: old streamed page is absent; tombstone is not a new public-page exception
+  ---
+  duration_ms: 0.869114
+  type: 'test'
+  ...
+# Subtest: /free-resources: actual helper survives HTTP transport with 404, including HEAD
+ok 4 - /free-resources: actual helper survives HTTP transport with 404, including HEAD
+  ---
+  duration_ms: 51.21768
+  type: 'test'
+  ...
+# Subtest: /resources: GET returns terminal native HTTP 404 with no script or account reflection
+ok 5 - /resources: GET returns terminal native HTTP 404 with no script or account reflection
+  ---
+  duration_ms: 8.31671
+  type: 'test'
+  ...
+# Subtest: /resources: HEAD returns exactly the same status and headers as GET but no body
+ok 6 - /resources: HEAD returns exactly the same status and headers as GET but no body
+  ---
+  duration_ms: 7.07518
+  type: 'test'
+  ...
+# Subtest: /resources: old streamed page is absent; tombstone is not a new public-page exception
+ok 7 - /resources: old streamed page is absent; tombstone is not a new public-page exception
+  ---
+  duration_ms: 0.419084
+  type: 'test'
+  ...
+# Subtest: /resources: actual helper survives HTTP transport with 404, including HEAD
+ok 8 - /resources: actual helper survives HTTP transport with 404, including HEAD
+  ---
+  duration_ms: 24.460552
+  type: 'test'
+  ...
+# Subtest: retired response copy and CSS values retain the existing status-page appearance
+ok 9 - retired response copy and CSS values retain the existing status-page appearance
+  ---
+  duration_ms: 1.355337
+  type: 'test'
+  ...
+# Subtest: original 404 browser assertion remains strict; ordinary release gate also covers both retired URLs
+ok 10 - original 404 browser assertion remains strict; ordinary release gate also covers both retired URLs
+  ---
+  duration_ms: 1.758692
+  type: 'test'
+  ...
+# Subtest: standalone launcher uses generated server and copies both public/static assets
+ok 11 - standalone launcher uses generated server and copies both public/static assets
+  ---
+  duration_ms: 8.025834
+  type: 'test'
+  ...
+# Subtest: standalone asset copy can run twice without modifying source or build identity
+ok 12 - standalone asset copy can run twice without modifying source or build identity
+  ---
+  duration_ms: 7.445633
+  type: 'test'
+  ...
+# Subtest: missing .next/BUILD_ID fails before starting the isolated stack
+ok 13 - missing .next/BUILD_ID fails before starting the isolated stack
+  ---
+  duration_ms: 2.169611
+  type: 'test'
+  ...
+# Subtest: missing .next/standalone/server.js fails before starting the isolated stack
+ok 14 - missing .next/standalone/server.js fails before starting the isolated stack
+  ---
+  duration_ms: 1.750909
+  type: 'test'
+  ...
+# Subtest: missing .next/static fails before starting the isolated stack
+ok 15 - missing .next/static fails before starting the isolated stack
+  ---
+  duration_ms: 1.719399
+  type: 'test'
+  ...
+# Subtest: missing public fails before starting the isolated stack
+ok 16 - missing public fails before starting the isolated stack
+  ---
+  duration_ms: 1.353673
+  type: 'test'
+  ...
+# Subtest: DB browser stack no longer calls next start for standalone output
+ok 17 - DB browser stack no longer calls next start for standalone output
+  ---
+  duration_ms: 1.683657
+  type: 'test'
+  ...
+1..17
+# tests 17
+# suites 0
+# pass 17
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 571.620906

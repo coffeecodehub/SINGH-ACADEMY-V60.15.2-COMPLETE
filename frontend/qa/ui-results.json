@@ -1,0 +1,2723 @@
+{
+  "config": {
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.exe",
+      "C:\\Users\\it's_me_Programmer\\Downloads\\Singh-Academy-V60.15.2\\SINGH-ACADEMY-V60.15.2-COMPLETE\\frontend\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "-c",
+      "playwright.ui.config.ts"
+    ],
+    "configFile": "C:\\Users\\it's_me_Programmer\\Downloads\\Singh-Academy-V60.15.2\\SINGH-ACADEMY-V60.15.2-COMPLETE\\frontend\\playwright.ui.config.ts",
+    "rootDir": "C:/Users/it's_me_Programmer/Downloads/Singh-Academy-V60.15.2/SINGH-ACADEMY-V60.15.2-COMPLETE/frontend/ui-tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/it's_me_Programmer/Downloads/Singh-Academy-V60.15.2/SINGH-ACADEMY-V60.15.2-COMPLETE/frontend/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "C:/Users/it's_me_Programmer/Downloads/Singh-Academy-V60.15.2/SINGH-ACADEMY-V60.15.2-COMPLETE/frontend/ui-tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 45000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "qa/ui-report",
+          "open": "never"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "qa/ui-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 1,
+    "webServer": {
+      "command": "node ../scripts/start-ui-stack.mjs",
+      "url": "http://127.0.0.1:3108/login",
+      "reuseExistingServer": false,
+      "timeout": 240000
+    }
+  },
+  "suites": [
+    {
+      "title": "auth-hydration-v60-11.spec.ts",
+      "file": "auth-hydration-v60-11.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "V60.11 hydration: public landing, guest auth and non-submit Back at 390px",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1756,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T20:59:36.431Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1205dd342e4d4b56c352-5e25b197a3043f93c8f1",
+          "file": "auth-hydration-v60-11.spec.ts",
+          "line": 17,
+          "column": 39
+        },
+        {
+          "title": "V60.11 hydration: public landing, guest auth and non-submit Back at 820px",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1330,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T20:59:38.465Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1205dd342e4d4b56c352-ca819b233bff93ae9b03",
+          "file": "auth-hydration-v60-11.spec.ts",
+          "line": 17,
+          "column": 39
+        },
+        {
+          "title": "V60.11 hydration: public landing, guest auth and non-submit Back at 1440px",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1423,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T20:59:39.832Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1205dd342e4d4b56c352-c9470019e2492e6c45de",
+          "file": "auth-hydration-v60-11.spec.ts",
+          "line": 17,
+          "column": 39
+        },
+        {
+          "title": "V60.11 credentials go to intended protected page; root and login then resolve to Home",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2203,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T20:59:41.289Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1205dd342e4d4b56c352-72f515fcf8bf876b738a",
+          "file": "auth-hydration-v60-11.spec.ts",
+          "line": 24,
+          "column": 5
+        },
+        {
+          "title": "V60.11 logout from Events revokes session, clears legacy paths and always opens guest landing",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3696,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T20:59:43.517Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1205dd342e4d4b56c352-c2e92db6ef67ece2d7a0",
+          "file": "auth-hydration-v60-11.spec.ts",
+          "line": 28,
+          "column": 5
+        },
+        {
+          "title": "V60.11 logout is observed by sibling tab; only deliberate credential submission restores session",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3401,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T20:59:47.245Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1205dd342e4d4b56c352-0018b361f0960584b7e6",
+          "file": "auth-hydration-v60-11.spec.ts",
+          "line": 35,
+          "column": 5
+        },
+        {
+          "title": "V60.11 slow SSR session plus fast client resolution does not hydrate the header with a different tree",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1309,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T20:59:50.675Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1205dd342e4d4b56c352-90fd186e7d5e5dd7b7b6",
+          "file": "auth-hydration-v60-11.spec.ts",
+          "line": 40,
+          "column": 5
+        },
+        {
+          "title": "V60.11 warm account/content state survives normal refresh without hydration warnings or redirect loop",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4290,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T20:59:52.018Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1205dd342e4d4b56c352-bc214257f145bb4a5a8e",
+          "file": "auth-hydration-v60-11.spec.ts",
+          "line": 46,
+          "column": 5
+        },
+        {
+          "title": "V60.11.1 authenticated document redirects never change the browser hostname",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1163,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T20:59:56.333Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1205dd342e4d4b56c352-fff34a7ecf43e4fa7573",
+          "file": "auth-hydration-v60-11.spec.ts",
+          "line": 52,
+          "column": 5
+        },
+        {
+          "title": "V60.11.1 Logout is disabled before hydration and the first enabled click revokes once",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1087,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T20:59:57.528Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1205dd342e4d4b56c352-b972f568a5a98c24a214",
+          "file": "auth-hydration-v60-11.spec.ts",
+          "line": 62,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "guest-observer-v60-12-3.spec.ts",
+      "file": "guest-observer-v60-12-3.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "V60.12.3 observer accepts one visible guest header with a hidden streaming copy",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 388,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T20:59:58.650Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d7058dad670cde5510c7-9a44594fe9b3e1b8f540",
+          "file": "guest-observer-v60-12-3.spec.ts",
+          "line": 17,
+          "column": 5
+        },
+        {
+          "title": "V60.12.3 observer re-evaluates the login form after a delayed landing-to-login redirect",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1264,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T20:59:59.063Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d7058dad670cde5510c7-b0a046a25c994763645e",
+          "file": "guest-observer-v60-12-3.spec.ts",
+          "line": 24,
+          "column": 5
+        },
+        {
+          "title": "V60.12.3 observer fails a genuine persistent TWO-visible-header rendering bug",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5265,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T21:00:00.349Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d7058dad670cde5510c7-8019b07dc02733a8b651",
+          "file": "guest-observer-v60-12-3.spec.ts",
+          "line": 35,
+          "column": 5
+        },
+        {
+          "title": "V60.12.3 observer refuses signed-in controls and preserves exact logout landing destination",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 461,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T21:00:05.638Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d7058dad670cde5510c7-425a56d4af1dde55baf7",
+          "file": "guest-observer-v60-12-3.spec.ts",
+          "line": 42,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "logout-free-tablet.spec.ts",
+      "file": "logout-free-tablet.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "explicit logout remains logged out after Back and Refresh until credentials are submitted",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3823,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T21:00:06.150Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "61b3754cf2c6a45d0b06-00347b9a1594cb7b4655",
+          "file": "logout-free-tablet.spec.ts",
+          "line": 34,
+          "column": 5
+        },
+        {
+          "title": "a separately opened tab observes logout without refreshing repeatedly",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3442,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T21:00:09.999Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "61b3754cf2c6a45d0b06-788db1c857e3dcc6b17a",
+          "file": "logout-free-tablet.spec.ts",
+          "line": 47,
+          "column": 5
+        },
+        {
+          "title": "an unexpired session remains signed in when no logout has been requested",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 886,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T21:00:13.465Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "61b3754cf2c6a45d0b06-c06d2d2e7acfadbc645a",
+          "file": "logout-free-tablet.spec.ts",
+          "line": 54,
+          "column": 5
+        },
+        {
+          "title": "free course Start enrolls directly without a purchase request",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 855,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T21:00:14.376Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "61b3754cf2c6a45d0b06-2e877dfb67989a07c261",
+          "file": "logout-free-tablet.spec.ts",
+          "line": 57,
+          "column": 5
+        },
+        {
+          "title": "manually visiting checkout for a free course does not show payment-provider buttons",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 788,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T21:00:15.254Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "61b3754cf2c6a45d0b06-819b64868efac83a11d2",
+          "file": "logout-free-tablet.spec.ts",
+          "line": 62,
+          "column": 5
+        },
+        {
+          "title": "header fits 375px without overlap and compact menu can open",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 769,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T21:00:16.064Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "61b3754cf2c6a45d0b06-aba69d8cfaf246a57a28",
+          "file": "logout-free-tablet.spec.ts",
+          "line": 65,
+          "column": 58
+        },
+        {
+          "title": "header fits 768px without overlap and compact menu can open",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 746,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T21:00:16.854Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "61b3754cf2c6a45d0b06-e827f4ee7e08a926fa9d",
+          "file": "logout-free-tablet.spec.ts",
+          "line": 65,
+          "column": 58
+        },
+        {
+          "title": "header fits 901px without overlap and compact menu can open",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 639,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T21:00:17.625Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "61b3754cf2c6a45d0b06-4f584efe9c23d500f413",
+          "file": "logout-free-tablet.spec.ts",
+          "line": 65,
+          "column": 58
+        },
+        {
+          "title": "header fits 1024px without overlap and compact menu can open",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 647,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T21:00:18.286Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "61b3754cf2c6a45d0b06-05a3562887733ffe1ea3",
+          "file": "logout-free-tablet.spec.ts",
+          "line": 65,
+          "column": 58
+        },
+        {
+          "title": "header fits 1228px without overlap and compact menu can open",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 745,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T21:00:18.957Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "61b3754cf2c6a45d0b06-75e4be84e6a7d54de267",
+          "file": "logout-free-tablet.spec.ts",
+          "line": 65,
+          "column": 58
+        },
+        {
+          "title": "header fits 1366px without overlap and compact menu can open",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 663,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T21:00:19.723Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "61b3754cf2c6a45d0b06-b19b43b536d10f585447",
+          "file": "logout-free-tablet.spec.ts",
+          "line": 65,
+          "column": 58
+        },
+        {
+          "title": "header fits 1440px without overlap and compact menu can open",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 679,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T21:00:20.409Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "61b3754cf2c6a45d0b06-1e5749600dbd0eacd0d1",
+          "file": "logout-free-tablet.spec.ts",
+          "line": 65,
+          "column": 58
+        },
+        {
+          "title": "newly issued certificate appears on the already open My Courses page",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3730,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T21:00:21.111Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "61b3754cf2c6a45d0b06-b58b77297b9b130c69d2",
+          "file": "logout-free-tablet.spec.ts",
+          "line": 71,
+          "column": 5
+        },
+        {
+          "title": "direct About request without a cookie redirects to sign-in",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 726,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T21:00:24.863Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "61b3754cf2c6a45d0b06-77f935111735aa6f472a",
+          "file": "logout-free-tablet.spec.ts",
+          "line": 84,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "media-images-v60-13.spec.ts",
+      "file": "media-images-v60-13.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "vimeo player prepares paused, acknowledges Play once ready, and keeps the same iframe",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1208,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T21:00:25.623Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f35d08ee9f53e6ef5561-cce34214f57a0f54a002",
+          "file": "media-images-v60-13.spec.ts",
+          "line": 16,
+          "column": 47
+        },
+        {
+          "title": "youtube player prepares paused, acknowledges Play once ready, and keeps the same iframe",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1121,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T21:00:26.859Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f35d08ee9f53e6ef5561-805af67f36df15a6bc3b",
+          "file": "media-images-v60-13.spec.ts",
+          "line": 16,
+          "column": 47
+        },
+        {
+          "title": "catalog priority photos request a grid-sized variant, not a full-viewport original",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2016,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T21:00:28.002Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f35d08ee9f53e6ef5561-5112ee0451d5cc792994",
+          "file": "media-images-v60-13.spec.ts",
+          "line": 61,
+          "column": 5
+        },
+        {
+          "title": "V60.13.1 fixture PNGs decode at their declared widths before responsive density correction",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 820,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T21:00:30.040Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f35d08ee9f53e6ef5561-1c2f4945e9b6412226a8",
+          "file": "media-images-v60-13.spec.ts",
+          "line": 70,
+          "column": 5
+        },
+        {
+          "title": "home warms first-row catalog photos before user opens catalog without mutating access",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2468,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T21:00:30.887Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f35d08ee9f53e6ef5561-f16081feb49e9a7b39db",
+          "file": "media-images-v60-13.spec.ts",
+          "line": 86,
+          "column": 5
+        },
+        {
+          "title": "slightly larger wide desktop header still fits without overlap",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 783,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T21:00:33.377Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f35d08ee9f53e6ef5561-f5a5adafa660be73becd",
+          "file": "media-images-v60-13.spec.ts",
+          "line": 92,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "payments-v60-12.spec.ts",
+      "file": "payments-v60-12.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "stripe course at 390px: one checkout, verified fixture return, owned invoice",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1860,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T21:00:34.210Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e1732b47934fabd92c3f-8c9d9b02f69d08ca346a",
+          "file": "payments-v60-12.spec.ts",
+          "line": 37,
+          "column": 119
+        },
+        {
+          "title": "stripe membership at 390px: one checkout, verified fixture return, owned invoice",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1821,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T21:00:36.098Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e1732b47934fabd92c3f-35a6d88c1af6ba38e15c",
+          "file": "payments-v60-12.spec.ts",
+          "line": 37,
+          "column": 119
+        },
+        {
+          "title": "paypal course at 390px: one checkout, verified fixture return, owned invoice",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1844,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T21:00:37.944Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e1732b47934fabd92c3f-21ae84c4b164ceda3563",
+          "file": "payments-v60-12.spec.ts",
+          "line": 37,
+          "column": 119
+        },
+        {
+          "title": "paypal membership at 390px: one checkout, verified fixture return, owned invoice",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1834,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T21:00:39.818Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e1732b47934fabd92c3f-426623ee7f5b18ea8743",
+          "file": "payments-v60-12.spec.ts",
+          "line": 37,
+          "column": 119
+        },
+        {
+          "title": "stripe course at 1440px: one checkout, verified fixture return, owned invoice",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1890,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T21:00:41.677Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e1732b47934fabd92c3f-ea0027d692e63031cef7",
+          "file": "payments-v60-12.spec.ts",
+          "line": 37,
+          "column": 119
+        },
+        {
+          "title": "stripe membership at 1440px: one checkout, verified fixture return, owned invoice",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2008,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T21:00:43.597Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e1732b47934fabd92c3f-65c32cd031daf725a002",
+          "file": "payments-v60-12.spec.ts",
+          "line": 37,
+          "column": 119
+        },
+        {
+          "title": "paypal course at 1440px: one checkout, verified fixture return, owned invoice",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1957,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T21:00:45.629Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e1732b47934fabd92c3f-6c7cfefb4eebcaef4412",
+          "file": "payments-v60-12.spec.ts",
+          "line": 37,
+          "column": 119
+        },
+        {
+          "title": "paypal membership at 1440px: one checkout, verified fixture return, owned invoice",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1986,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T21:00:47.614Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e1732b47934fabd92c3f-9ccceb8032ca68cf0fb9",
+          "file": "payments-v60-12.spec.ts",
+          "line": 37,
+          "column": 119
+        },
+        {
+          "title": "lost creation response recovers with the original key and no second purchase POST",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1035,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T21:00:49.627Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e1732b47934fabd92c3f-a1933f697a89b0576510",
+          "file": "payments-v60-12.spec.ts",
+          "line": 50,
+          "column": 5
+        },
+        {
+          "title": "unknown checkout survives refresh and server refuses a new payment until the old checkout is identified",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1548,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T21:00:50.686Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e1732b47934fabd92c3f-359ab71fec0a27688733",
+          "file": "payments-v60-12.spec.ts",
+          "line": 56,
+          "column": 5
+        },
+        {
+          "title": "only a server-confirmed closed checkout plus an explicit click permits a new key",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1177,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T21:00:52.264Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e1732b47934fabd92c3f-beb7be562ff758819460",
+          "file": "payments-v60-12.spec.ts",
+          "line": 65,
+          "column": 5
+        },
+        {
+          "title": "provider cancellation is a read-only status check, not a capture or automatic retry",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1488,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T21:00:53.465Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e1732b47934fabd92c3f-9055342eb9f561bf3679",
+          "file": "payments-v60-12.spec.ts",
+          "line": 71,
+          "column": 5
+        },
+        {
+          "title": "slow pending confirmation updates the same document without another checkout",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7525,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T21:00:54.977Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e1732b47934fabd92c3f-5e4c610968f3cc5741ca",
+          "file": "payments-v60-12.spec.ts",
+          "line": 76,
+          "column": 5
+        },
+        {
+          "title": "temporary provider confirmation outage offers retry of status, not another purchase",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1523,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T21:01:02.531Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e1732b47934fabd92c3f-dc7f086e9ab42175303a",
+          "file": "payments-v60-12.spec.ts",
+          "line": 82,
+          "column": 5
+        },
+        {
+          "title": "one student cannot read or confirm another students checkout or invoice",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1624,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T21:01:04.082Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e1732b47934fabd92c3f-f6606c3cbc93a3671438",
+          "file": "payments-v60-12.spec.ts",
+          "line": 88,
+          "column": 5
+        },
+        {
+          "title": "provider Back preserves the original checkout and does not automatically create another order",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1582,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T21:01:05.735Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e1732b47934fabd92c3f-f037cd1b69dcae25f1c9",
+          "file": "payments-v60-12.spec.ts",
+          "line": 96,
+          "column": 5
+        },
+        {
+          "title": "paid return refresh reuses the settled order and cannot duplicate invoice, payment or notification",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1862,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T21:01:07.358Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e1732b47934fabd92c3f-1eda5fcc1ce9da9c8f37",
+          "file": "payments-v60-12.spec.ts",
+          "line": 103,
+          "column": 5
+        },
+        {
+          "title": "synthetic stripe document preserves UTF-8 heading and both return links",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 477,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T21:01:09.246Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e1732b47934fabd92c3f-3a798efec5b4dc2ab3c6",
+          "file": "payments-v60-12.spec.ts",
+          "line": 110,
+          "column": 47
+        },
+        {
+          "title": "synthetic paypal document preserves UTF-8 heading and both return links",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 461,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T21:01:09.748Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e1732b47934fabd92c3f-5c623b13704ca06f3274",
+          "file": "payments-v60-12.spec.ts",
+          "line": 110,
+          "column": 47
+        },
+        {
+          "title": "delayed creation is observed before approval and still settles exactly one order",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2230,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T21:01:10.232Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e1732b47934fabd92c3f-65ee5da6fc28910155a6",
+          "file": "payments-v60-12.spec.ts",
+          "line": 125,
+          "column": 5
+        },
+        {
+          "title": "stripe course at 390px: Back/Cancel permits verified switch and only replacement can settle",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2251,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T21:01:12.486Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e1732b47934fabd92c3f-3581b4eeb24755e8d8bc",
+          "file": "payments-v60-12.spec.ts",
+          "line": 139,
+          "column": 5
+        },
+        {
+          "title": "stripe membership at 390px: Back/Cancel permits verified switch and only replacement can settle",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2288,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T21:01:14.761Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e1732b47934fabd92c3f-e5111b6ee0ef186cadae",
+          "file": "payments-v60-12.spec.ts",
+          "line": 139,
+          "column": 5
+        },
+        {
+          "title": "paypal course at 390px: Back/Cancel permits verified switch and only replacement can settle",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2322,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T21:01:17.080Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e1732b47934fabd92c3f-3da8566cd28eb5ae0250",
+          "file": "payments-v60-12.spec.ts",
+          "line": 139,
+          "column": 5
+        },
+        {
+          "title": "paypal membership at 390px: Back/Cancel permits verified switch and only replacement can settle",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2324,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T21:01:19.426Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e1732b47934fabd92c3f-f138cfe011b5fbd10316",
+          "file": "payments-v60-12.spec.ts",
+          "line": 139,
+          "column": 5
+        },
+        {
+          "title": "stripe course at 1440px: Back/Cancel permits verified switch and only replacement can settle",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2171,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T21:01:21.777Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e1732b47934fabd92c3f-2c847804036edfe5da10",
+          "file": "payments-v60-12.spec.ts",
+          "line": 139,
+          "column": 5
+        },
+        {
+          "title": "stripe membership at 1440px: Back/Cancel permits verified switch and only replacement can settle",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2236,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T21:01:23.976Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e1732b47934fabd92c3f-394440bc7ba15e7bcfbe",
+          "file": "payments-v60-12.spec.ts",
+          "line": 139,
+          "column": 5
+        },
+        {
+          "title": "paypal course at 1440px: Back/Cancel permits verified switch and only replacement can settle",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2217,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T21:01:26.243Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e1732b47934fabd92c3f-584710f2bc77fa15db7d",
+          "file": "payments-v60-12.spec.ts",
+          "line": 139,
+          "column": 5
+        },
+        {
+          "title": "paypal membership at 1440px: Back/Cancel permits verified switch and only replacement can settle",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2072,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T21:01:28.493Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e1732b47934fabd92c3f-1b6d0462a89d8aa081d0",
+          "file": "payments-v60-12.spec.ts",
+          "line": 139,
+          "column": 5
+        },
+        {
+          "title": "payment method can switch back a second time without duplicate settlement",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2723,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T21:01:30.596Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e1732b47934fabd92c3f-45a9951896261b70f21c",
+          "file": "payments-v60-12.spec.ts",
+          "line": 167,
+          "column": 5
+        },
+        {
+          "title": "another student cannot release an owned checkout or obtain its replacement key",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 983,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T21:01:33.344Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e1732b47934fabd92c3f-22de34fff211b8a54ce3",
+          "file": "payments-v60-12.spec.ts",
+          "line": 176,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "player-preview-v60-13-2.spec.ts",
+      "file": "player-preview-v60-13-2.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "vimeo delayed iframe commit emits no premature postMessage; early Play is delivered once after ready",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2238,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T21:01:34.370Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "410f9bcfd5ab0e1ed7a8-4e4f7dff474e74ee0430",
+          "file": "player-preview-v60-13-2.spec.ts",
+          "line": 28,
+          "column": 47
+        },
+        {
+          "title": "youtube delayed iframe commit emits no premature postMessage; early Play is delivered once after ready",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2200,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T21:01:36.637Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "410f9bcfd5ab0e1ed7a8-27acc614f8781f4bd13f",
+          "file": "player-preview-v60-13-2.spec.ts",
+          "line": 28,
+          "column": 47
+        },
+        {
+          "title": "leaving a lesson before its Vimeo document commits does not post into the removed frame",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1703,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T21:01:38.871Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "410f9bcfd5ab0e1ed7a8-75fa3b7ce21be626d92f",
+          "file": "player-preview-v60-13-2.spec.ts",
+          "line": 51,
+          "column": 5
+        }
+      ],
+      "suites": [
+        {
+          "title": "landing preview input at 390px",
+          "file": "player-preview-v60-13-2.spec.ts",
+          "line": 60,
+          "column": 36,
+          "specs": [
+            {
+              "title": "guest landing team preview remains public; full profile keeps login destination at 390px",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2382,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-06T21:01:40.596Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "410f9bcfd5ab0e1ed7a8-5b6478422131e852ccfe",
+              "file": "player-preview-v60-13-2.spec.ts",
+              "line": 62,
+              "column": 6
+            }
+          ]
+        },
+        {
+          "title": "landing preview input at 1440px",
+          "file": "player-preview-v60-13-2.spec.ts",
+          "line": 60,
+          "column": 36,
+          "specs": [
+            {
+              "title": "guest landing team preview remains public; full profile keeps login destination at 1440px",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3712,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-06T21:01:43.005Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "410f9bcfd5ab0e1ed7a8-d671adabf738572ac805",
+              "file": "player-preview-v60-13-2.spec.ts",
+              "line": 62,
+              "column": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "retired-routes-v60-15-2.spec.ts",
+      "file": "retired-routes-v60-15-2.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "retired /free-resources is a true signed-in 404 at 390px, while guest login remains protected",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 958,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T21:01:46.757Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "adb71ee0c34a0b135de9-d155f45e4861062d5ea4",
+          "file": "retired-routes-v60-15-2.spec.ts",
+          "line": 5,
+          "column": 7
+        },
+        {
+          "title": "retired /resources is a true signed-in 404 at 390px, while guest login remains protected",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 976,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T21:01:47.743Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "adb71ee0c34a0b135de9-2433e062d6e06e28fd1a",
+          "file": "retired-routes-v60-15-2.spec.ts",
+          "line": 5,
+          "column": 7
+        },
+        {
+          "title": "retired /free-resources is a true signed-in 404 at 1440px, while guest login remains protected",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1032,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T21:01:48.746Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "adb71ee0c34a0b135de9-607b077c52f32b0260ee",
+          "file": "retired-routes-v60-15-2.spec.ts",
+          "line": 5,
+          "column": 7
+        },
+        {
+          "title": "retired /resources is a true signed-in 404 at 1440px, while guest login remains protected",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1070,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T21:01:49.805Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "adb71ee0c34a0b135de9-8051850d7e4ed50c6f34",
+          "file": "retired-routes-v60-15-2.spec.ts",
+          "line": 5,
+          "column": 7
+        }
+      ]
+    },
+    {
+      "title": "team-multi-v60-14.spec.ts",
+      "file": "team-multi-v60-14.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "marquee requests offscreen member photos before hover and preserves public preview",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1185,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T21:01:50.912Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c52919c0ea9f4da3be8-b1527b704f03399830a1",
+          "file": "team-multi-v60-14.spec.ts",
+          "line": 6,
+          "column": 5
+        },
+        {
+          "title": "multi-category public team tabs show the same member once without duplicating All",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1191,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-06T21:01:52.127Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c52919c0ea9f4da3be8-598bee5065c758cafe99",
+          "file": "team-multi-v60-14.spec.ts",
+          "line": 20,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-06T20:58:35.885Z",
+    "duration": 198539.309,
+    "expected": 75,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "command": [
+    "node",
+    "--version"
+  ],
+  "exitCode": 0,
+  "stdout": "v22.16.0\n",
+  "stderr": ""
+}

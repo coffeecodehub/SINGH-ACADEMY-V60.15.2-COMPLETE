@@ -1,0 +1,9 @@
+{
+  "command": [
+    "npm",
+    "--version"
+  ],
+  "exitCode": 0,
+  "stdout": "10.9.2\n",
+  "stderr": ""
+}

@@ -1,0 +1,66 @@
+[
+  {
+    "cmd": "npm",
+    "args": [
+      "install",
+      "--package-lock-only",
+      "--ignore-scripts",
+      "--no-audit",
+      "--no-fund"
+    ],
+    "stdout": "\nup to date in 419ms\n",
+    "stderr": ""
+  },
+  {
+    "cmd": "npm",
+    "args": [
+      "install",
+      "--package-lock-only",
+      "--ignore-scripts",
+      "--no-audit",
+      "--no-fund"
+    ],
+    "stdout": "\nup to date in 237ms\n",
+    "stderr": ""
+  },
+  {
+    "cmd": "/opt/nvm/versions/node/v22.16.0/bin/node",
+    "args": [
+      "/tmp/sa-npm-fixture-Qi2GGq/refresh.mjs",
+      "/tmp/sa-npm-fixture-Qi2GGq/project"
+    ],
+    "stdout": "backend: resolving approved Sharp 0.35.5 security update with npm. Other package versions must remain unchanged.\n\nup to date in 238ms\nfrontend: resolving approved Sharp 0.35.5 security update with npm. Other package versions must remain unchanged.\n\nup to date in 230ms\nLock refresh complete. Original locks backed up locally; review and commit: backend/package-lock.json, frontend/package-lock.json\nThis is dependency resolution only. npm ci, installed native checks, online audit and application tests must still pass.\n",
+    "stderr": ""
+  },
+  {
+    "cmd": "npm",
+    "args": [
+      "ci",
+      "--ignore-scripts",
+      "--no-audit",
+      "--no-fund"
+    ],
+    "stdout": "\nadded 5 packages in 250ms\n",
+    "stderr": ""
+  },
+  {
+    "cmd": "npm",
+    "args": [
+      "ci",
+      "--ignore-scripts",
+      "--no-audit",
+      "--no-fund"
+    ],
+    "stdout": "\nadded 5 packages in 258ms\n",
+    "stderr": ""
+  },
+  {
+    "cmd": "/opt/nvm/versions/node/v22.16.0/bin/node",
+    "args": [
+      "/tmp/sa-npm-fixture-Qi2GGq/refresh.mjs",
+      "/tmp/sa-npm-fixture-Qi2GGq/project"
+    ],
+    "stdout": "Security lockfiles already resolve Sharp 0.35.5; no lockfile changes needed.\n",
+    "stderr": ""
+  }
+]

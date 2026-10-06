@@ -1,0 +1,150 @@
+{
+  "version": "60.15.2",
+  "node": "24.18.0",
+  "startedAt": "2026-10-06T20:55:58.702Z",
+  "finishedAt": "2026-10-06T20:56:06.475Z",
+  "status": "passed",
+  "scope": "Known vulnerabilities reported by the configured npm registry, at this time, for these lockfile hashes. Not a penetration test or a guarantee against unknown flaws.",
+  "scans": [
+    {
+      "scope": "backend",
+      "kind": "production",
+      "command": [
+        "npm",
+        "audit",
+        "--omit=dev",
+        "--include=prod",
+        "--include=optional",
+        "--include=peer",
+        "--audit-level=info",
+        "--json"
+      ],
+      "status": "passed",
+      "lockSha256": "a3dc71547eedfd28ba7ebda63c46df8563113167dd6a105179204c6732c2cad4",
+      "attempts": [
+        {
+          "attempt": 1,
+          "exitCode": 0,
+          "status": "passed",
+          "transient": false
+        }
+      ],
+      "exitCode": 0,
+      "reason": "0 vulnerabilities reported by this completed npm audit.",
+      "vulnerabilities": {
+        "info": 0,
+        "low": 0,
+        "moderate": 0,
+        "high": 0,
+        "critical": 0,
+        "total": 0
+      },
+      "reportFile": "qa/audit-backend-production.json"
+    },
+    {
+      "scope": "backend",
+      "kind": "full",
+      "command": [
+        "npm",
+        "audit",
+        "--include=prod",
+        "--include=dev",
+        "--include=optional",
+        "--include=peer",
+        "--audit-level=info",
+        "--json"
+      ],
+      "status": "passed",
+      "lockSha256": "a3dc71547eedfd28ba7ebda63c46df8563113167dd6a105179204c6732c2cad4",
+      "attempts": [
+        {
+          "attempt": 1,
+          "exitCode": 0,
+          "status": "passed",
+          "transient": false
+        }
+      ],
+      "exitCode": 0,
+      "reason": "0 vulnerabilities reported by this completed npm audit.",
+      "vulnerabilities": {
+        "info": 0,
+        "low": 0,
+        "moderate": 0,
+        "high": 0,
+        "critical": 0,
+        "total": 0
+      },
+      "reportFile": "qa/audit-backend-full.json"
+    },
+    {
+      "scope": "frontend",
+      "kind": "production",
+      "command": [
+        "npm",
+        "audit",
+        "--omit=dev",
+        "--include=prod",
+        "--include=optional",
+        "--include=peer",
+        "--audit-level=info",
+        "--json"
+      ],
+      "status": "passed",
+      "lockSha256": "cabfc498a3aa076dac4312c4ecb7216cc79cbeb4d6cc12ecf54b5fe85c82bc8f",
+      "attempts": [
+        {
+          "attempt": 1,
+          "exitCode": 0,
+          "status": "passed",
+          "transient": false
+        }
+      ],
+      "exitCode": 0,
+      "reason": "0 vulnerabilities reported by this completed npm audit.",
+      "vulnerabilities": {
+        "info": 0,
+        "low": 0,
+        "moderate": 0,
+        "high": 0,
+        "critical": 0,
+        "total": 0
+      },
+      "reportFile": "qa/audit-frontend-production.json"
+    },
+    {
+      "scope": "frontend",
+      "kind": "full",
+      "command": [
+        "npm",
+        "audit",
+        "--include=prod",
+        "--include=dev",
+        "--include=optional",
+        "--include=peer",
+        "--audit-level=info",
+        "--json"
+      ],
+      "status": "passed",
+      "lockSha256": "cabfc498a3aa076dac4312c4ecb7216cc79cbeb4d6cc12ecf54b5fe85c82bc8f",
+      "attempts": [
+        {
+          "attempt": 1,
+          "exitCode": 0,
+          "status": "passed",
+          "transient": false
+        }
+      ],
+      "exitCode": 0,
+      "reason": "0 vulnerabilities reported by this completed npm audit.",
+      "vulnerabilities": {
+        "info": 0,
+        "low": 0,
+        "moderate": 0,
+        "high": 0,
+        "critical": 0,
+        "total": 0
+      },
+      "reportFile": "qa/audit-frontend-full.json"
+    }
+  ]
+}

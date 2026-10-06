@@ -1,0 +1,712 @@
+TAP version 13
+# Subtest: runtime policy accepts stable version string 22.0.0
+ok 1 - runtime policy accepts stable version string 22.0.0
+  ---
+  duration_ms: 2.625931
+  type: 'test'
+  ...
+# Subtest: runtime policy accepts stable version string 22.16.0
+ok 2 - runtime policy accepts stable version string 22.16.0
+  ---
+  duration_ms: 0.251822
+  type: 'test'
+  ...
+# Subtest: runtime policy accepts stable version string 22.23.3
+ok 3 - runtime policy accepts stable version string 22.23.3
+  ---
+  duration_ms: 0.168769
+  type: 'test'
+  ...
+# Subtest: runtime policy accepts stable version string 24.0.0
+ok 4 - runtime policy accepts stable version string 24.0.0
+  ---
+  duration_ms: 0.122541
+  type: 'test'
+  ...
+# Subtest: runtime policy accepts stable version string 24.18.0
+ok 5 - runtime policy accepts stable version string 24.18.0
+  ---
+  duration_ms: 0.12219
+  type: 'test'
+  ...
+# Subtest: runtime policy accepts stable version string v24.18.0
+ok 6 - runtime policy accepts stable version string v24.18.0
+  ---
+  duration_ms: 0.103102
+  type: 'test'
+  ...
+# Subtest: runtime policy accepts stable version string 24.21.0
+ok 7 - runtime policy accepts stable version string 24.21.0
+  ---
+  duration_ms: 0.197662
+  type: 'test'
+  ...
+# Subtest: runtime policy rejects unsupported/invalid input "18.20.0"
+ok 8 - runtime policy rejects unsupported/invalid input "18.20.0"
+  ---
+  duration_ms: 0.538755
+  type: 'test'
+  ...
+# Subtest: runtime policy rejects unsupported/invalid input "20.19.0"
+ok 9 - runtime policy rejects unsupported/invalid input "20.19.0"
+  ---
+  duration_ms: 0.414822
+  type: 'test'
+  ...
+# Subtest: runtime policy rejects unsupported/invalid input "21.7.3"
+ok 10 - runtime policy rejects unsupported/invalid input "21.7.3"
+  ---
+  duration_ms: 0.42059
+  type: 'test'
+  ...
+# Subtest: runtime policy rejects unsupported/invalid input "23.11.0"
+ok 11 - runtime policy rejects unsupported/invalid input "23.11.0"
+  ---
+  duration_ms: 0.26464
+  type: 'test'
+  ...
+# Subtest: runtime policy rejects unsupported/invalid input "25.0.0"
+ok 12 - runtime policy rejects unsupported/invalid input "25.0.0"
+  ---
+  duration_ms: 0.151633
+  type: 'test'
+  ...
+# Subtest: runtime policy rejects unsupported/invalid input "26.0.0"
+ok 13 - runtime policy rejects unsupported/invalid input "26.0.0"
+  ---
+  duration_ms: 0.0945
+  type: 'test'
+  ...
+# Subtest: runtime policy rejects unsupported/invalid input "24.18.0-nightly"
+ok 14 - runtime policy rejects unsupported/invalid input "24.18.0-nightly"
+  ---
+  duration_ms: 0.086187
+  type: 'test'
+  ...
+# Subtest: runtime policy rejects unsupported/invalid input "22.0.0-rc.1"
+ok 15 - runtime policy rejects unsupported/invalid input "22.0.0-rc.1"
+  ---
+  duration_ms: 0.080328
+  type: 'test'
+  ...
+# Subtest: runtime policy rejects unsupported/invalid input "22.x"
+ok 16 - runtime policy rejects unsupported/invalid input "22.x"
+  ---
+  duration_ms: 0.098416
+  type: 'test'
+  ...
+# Subtest: runtime policy rejects unsupported/invalid input "24"
+ok 17 - runtime policy rejects unsupported/invalid input "24"
+  ---
+  duration_ms: 0.089832
+  type: 'test'
+  ...
+# Subtest: runtime policy rejects unsupported/invalid input "024.18.0"
+ok 18 - runtime policy rejects unsupported/invalid input "024.18.0"
+  ---
+  duration_ms: 0.088601
+  type: 'test'
+  ...
+# Subtest: runtime policy rejects unsupported/invalid input "24.18.0 trailing"
+ok 19 - runtime policy rejects unsupported/invalid input "24.18.0 trailing"
+  ---
+  duration_ms: 0.091945
+  type: 'test'
+  ...
+# Subtest: runtime policy rejects unsupported/invalid input ""
+ok 20 - runtime policy rejects unsupported/invalid input ""
+  ---
+  duration_ms: 0.117323
+  type: 'test'
+  ...
+# Subtest: runtime policy rejects unsupported/invalid input null
+ok 21 - runtime policy rejects unsupported/invalid input null
+  ---
+  duration_ms: 0.090603
+  type: 'test'
+  ...
+# Subtest: runtime policy rejects unsupported/invalid input 24
+ok 22 - runtime policy rejects unsupported/invalid input 24
+  ---
+  duration_ms: 0.095551
+  type: 'test'
+  ...
+# Subtest: runtime policy rejects unsupported/invalid input {}
+ok 23 - runtime policy rejects unsupported/invalid input {}
+  ---
+  duration_ms: 0.077504
+  type: 'test'
+  ...
+# Subtest: runtime policy rejects unsupported/invalid input []
+ok 24 - runtime policy rejects unsupported/invalid input []
+  ---
+  duration_ms: 0.079517
+  type: 'test'
+  ...
+# Subtest: default policy reads the actually executing Node runtime, without an NVM check
+ok 25 - default policy reads the actually executing Node runtime, without an NVM check
+  ---
+  duration_ms: 0.131745
+  type: 'test'
+  ...
+# Subtest: actual root/backend/frontend declare exactly the same accepted engines and version
+ok 26 - actual root/backend/frontend declare exactly the same accepted engines and version
+  ---
+  duration_ms: 0.723797
+  type: 'test'
+  ...
+# Subtest: Node 24 summary distinguishes local policy acceptance from Hostinger Node 22 evidence
+ok 27 - Node 24 summary distinguishes local policy acceptance from Hostinger Node 22 evidence
+  ---
+  duration_ms: 3.2493
+  type: 'test'
+  ...
+# Subtest: an old Node-22-only manifest is identified: package.json
+ok 28 - an old Node-22-only manifest is identified: package.json
+  ---
+  duration_ms: 1.561202
+  type: 'test'
+  ...
+# Subtest: an old Node-22-only manifest is identified: backend/package.json
+ok 29 - an old Node-22-only manifest is identified: backend/package.json
+  ---
+  duration_ms: 4.153663
+  type: 'test'
+  ...
+# Subtest: an old Node-22-only manifest is identified: frontend/package.json
+ok 30 - an old Node-22-only manifest is identified: frontend/package.json
+  ---
+  duration_ms: 1.293186
+  type: 'test'
+  ...
+# Subtest: mixed patch versions are not accepted: backend/package.json
+ok 31 - mixed patch versions are not accepted: backend/package.json
+  ---
+  duration_ms: 1.046944
+  type: 'test'
+  ...
+# Subtest: mixed patch versions are not accepted: frontend/package.json
+ok 32 - mixed patch versions are not accepted: frontend/package.json
+  ---
+  duration_ms: 0.984571
+  type: 'test'
+  ...
+# Subtest: malformed or missing manifest produces an actionable message without echoing file contents
+ok 33 - malformed or missing manifest produces an actionable message without echoing file contents
+  ---
+  duration_ms: 1.154311
+  type: 'test'
+  ...
+# Subtest: the original nine commands, order, audits and full browser gate are retained
+ok 34 - the original nine commands, order, audits and full browser gate are retained
+  ---
+  duration_ms: 1.026333
+  type: 'test'
+  ...
+# Subtest: explicit remote option appends verification only, never a charge-creation command
+ok 35 - explicit remote option appends verification only, never a charge-creation command
+  ---
+  duration_ms: 0.099016
+  type: 'test'
+  ...
+# Subtest: simulated successful gate retains every check under 22.16.0
+ok 36 - simulated successful gate retains every check under 22.16.0
+  ---
+  duration_ms: 6.1927
+  type: 'test'
+  ...
+# Subtest: simulated successful gate retains every check under 24.18.0
+ok 37 - simulated successful gate retains every check under 24.18.0
+  ---
+  duration_ms: 4.460155
+  type: 'test'
+  ...
+# Subtest: simulated gate stops at command 1 and never marks later commands passed
+ok 38 - simulated gate stops at command 1 and never marks later commands passed
+  ---
+  duration_ms: 1.542885
+  type: 'test'
+  ...
+# Subtest: simulated gate stops at command 2 and never marks later commands passed
+ok 39 - simulated gate stops at command 2 and never marks later commands passed
+  ---
+  duration_ms: 1.424169
+  type: 'test'
+  ...
+# Subtest: simulated gate stops at command 3 and never marks later commands passed
+ok 40 - simulated gate stops at command 3 and never marks later commands passed
+  ---
+  duration_ms: 2.242416
+  type: 'test'
+  ...
+# Subtest: simulated gate stops at command 4 and never marks later commands passed
+ok 41 - simulated gate stops at command 4 and never marks later commands passed
+  ---
+  duration_ms: 2.039777
+  type: 'test'
+  ...
+# Subtest: simulated gate stops at command 5 and never marks later commands passed
+ok 42 - simulated gate stops at command 5 and never marks later commands passed
+  ---
+  duration_ms: 2.41526
+  type: 'test'
+  ...
+# Subtest: simulated gate stops at command 6 and never marks later commands passed
+ok 43 - simulated gate stops at command 6 and never marks later commands passed
+  ---
+  duration_ms: 3.375546
+  type: 'test'
+  ...
+# Subtest: simulated gate stops at command 7 and never marks later commands passed
+ok 44 - simulated gate stops at command 7 and never marks later commands passed
+  ---
+  duration_ms: 5.507139
+  type: 'test'
+  ...
+# Subtest: simulated gate stops at command 8 and never marks later commands passed
+ok 45 - simulated gate stops at command 8 and never marks later commands passed
+  ---
+  duration_ms: 3.970914
+  type: 'test'
+  ...
+# Subtest: simulated gate stops at command 9 and never marks later commands passed
+ok 46 - simulated gate stops at command 9 and never marks later commands passed
+  ---
+  duration_ms: 5.671181
+  type: 'test'
+  ...
+# Subtest: an early unsupported runtime replaces stale success with failed + not_run entries
+ok 47 - an early unsupported runtime replaces stale success with failed + not_run entries
+  ---
+  duration_ms: 1.318224
+  type: 'test'
+  ...
+# Subtest: incomplete patch writes a failure report before installation or any service call
+ok 48 - incomplete patch writes a failure report before installation or any service call
+  ---
+  duration_ms: 1.061916
+  type: 'test'
+  ...
+# Subtest: commands do not mutate environment settings, secrets or lockfiles
+ok 49 - commands do not mutate environment settings, secrets or lockfiles
+  ---
+  duration_ms: 3.793212
+  type: 'test'
+  ...
+# Subtest: check:runtime CLI uses the current runtime and succeeds from an unrelated cwd
+ok 50 - check:runtime CLI uses the current runtime and succeeds from an unrelated cwd
+  ---
+  duration_ms: 40.175326
+  type: 'test'
+  ...
+# Subtest: CI declares both release families, with no single-runtime or auto-deploy shortcut
+ok 51 - CI declares both release families, with no single-runtime or auto-deploy shortcut
+  ---
+  duration_ms: 0.28467
+  type: 'test'
+  ...
+# Subtest: stable security version "0.35.5"
+ok 52 - stable security version "0.35.5"
+  ---
+  duration_ms: 1.772263
+  type: 'test'
+  ...
+# Subtest: stable security version "0.35.4"
+ok 53 - stable security version "0.35.4"
+  ---
+  duration_ms: 0.172495
+  type: 'test'
+  ...
+# Subtest: stable security version "0.36.0"
+ok 54 - stable security version "0.36.0"
+  ---
+  duration_ms: 0.194026
+  type: 'test'
+  ...
+# Subtest: stable security version "2.63.2"
+ok 55 - stable security version "2.63.2"
+  ---
+  duration_ms: 0.180395
+  type: 'test'
+  ...
+# Subtest: stable security version "2.63.1"
+ok 56 - stable security version "2.63.1"
+  ---
+  duration_ms: 0.260905
+  type: 'test'
+  ...
+# Subtest: stable security version "8.18.7"
+ok 57 - stable security version "8.18.7"
+  ---
+  duration_ms: 0.966224
+  type: 'test'
+  ...
+# Subtest: stable security version "0.35.5-rc.1"
+ok 58 - stable security version "0.35.5-rc.1"
+  ---
+  duration_ms: 0.164293
+  type: 'test'
+  ...
+# Subtest: stable security version "^0.35.5"
+ok 59 - stable security version "^0.35.5"
+  ---
+  duration_ms: 0.089192
+  type: 'test'
+  ...
+# Subtest: stable security version "0.35"
+ok 60 - stable security version "0.35"
+  ---
+  duration_ms: 0.328444
+  type: 'test'
+  ...
+# Subtest: stable security version undefined
+ok 61 - stable security version undefined
+  ---
+  duration_ms: 0.399389
+  type: 'test'
+  ...
+# Subtest: stable security version null
+ok 62 - stable security version null
+  ---
+  duration_ms: 0.168178
+  type: 'test'
+  ...
+# Subtest: stable security version 24
+ok 63 - stable security version 24
+  ---
+  duration_ms: 0.079387
+  type: 'test'
+  ...
+# Subtest: actual backend and frontend pins both select the reviewed Sharp patch
+ok 64 - actual backend and frontend pins both select the reviewed Sharp patch
+  ---
+  duration_ms: 0.484103
+  type: 'test'
+  ...
+# Subtest: backend old locked Sharp is rejected; updated lock passes
+ok 65 - backend old locked Sharp is rejected; updated lock passes
+  ---
+  duration_ms: 1.107072
+  type: 'test'
+  ...
+# Subtest: backend stale or missing frontend/backend manifest pin cannot pass
+ok 66 - backend stale or missing frontend/backend manifest pin cannot pass
+  ---
+  duration_ms: 3.435785
+  type: 'test'
+  ...
+# Subtest: frontend old locked Sharp is rejected; updated lock passes
+ok 67 - frontend old locked Sharp is rejected; updated lock passes
+  ---
+  duration_ms: 0.279121
+  type: 'test'
+  ...
+# Subtest: frontend stale or missing frontend/backend manifest pin cannot pass
+ok 68 - frontend stale or missing frontend/backend manifest pin cannot pass
+  ---
+  duration_ms: 1.209583
+  type: 'test'
+  ...
+# Subtest: unresolved/incomplete lock is not a patched dependency tree null
+ok 69 - unresolved/incomplete lock is not a patched dependency tree null
+  ---
+  duration_ms: 0.181808
+  type: 'test'
+  ...
+# Subtest: unresolved/incomplete lock is not a patched dependency tree {}
+ok 70 - unresolved/incomplete lock is not a patched dependency tree {}
+  ---
+  duration_ms: 0.075972
+  type: 'test'
+  ...
+# Subtest: unresolved/incomplete lock is not a patched dependency tree {"lockfileVersion":1}
+ok 71 - unresolved/incomplete lock is not a patched dependency tree {"lockfileVersion":1}
+  ---
+  duration_ms: 0.070124
+  type: 'test'
+  ...
+# Subtest: unresolved/incomplete lock is not a patched dependency tree {"lockfileVersion":3,"packages":{}}
+ok 72 - unresolved/incomplete lock is not a patched dependency tree {"lockfileVersion":3,"packages":{}}
+  ---
+  duration_ms: 0.08161
+  type: 'test'
+  ...
+# Subtest: a nested vulnerable copy cannot hide behind patched hoisted Sharp
+ok 73 - a nested vulnerable copy cannot hide behind patched hoisted Sharp
+  ---
+  duration_ms: 0.270439
+  type: 'test'
+  ...
+# Subtest: old native libvips package is detected even with updated Sharp wrapper
+ok 74 - old native libvips package is detected even with updated Sharp wrapper
+  ---
+  duration_ms: 0.167888
+  type: 'test'
+  ...
+# Subtest: missing integrity or linked Sharp is not accepted as a security update
+ok 75 - missing integrity or linked Sharp is not accepted as a security update
+  ---
+  duration_ms: 0.221216
+  type: 'test'
+  ...
+# Subtest: both genuine original lock byte snapshots are backed up; env untouched
+ok 76 - both genuine original lock byte snapshots are backed up; env untouched
+  ---
+  duration_ms: 5.603491
+  type: 'test'
+  ...
+# Subtest: second invocation preserves patched locks byte-for-byte and performs no npm call
+ok 77 - second invocation preserves patched locks byte-for-byte and performs no npm call
+  ---
+  duration_ms: 1.263673
+  type: 'test'
+  ...
+# Subtest: npm failure at workspace 1 restores BOTH original locks
+ok 78 - npm failure at workspace 1 restores BOTH original locks
+  ---
+  duration_ms: 2.992326
+  type: 'test'
+  ...
+# Subtest: npm failure at workspace 2 restores BOTH original locks
+ok 79 - npm failure at workspace 2 restores BOTH original locks
+  ---
+  duration_ms: 2.664849
+  type: 'test'
+  ...
+# Subtest: npm resolving the old override is refused and old lock restored
+ok 80 - npm resolving the old override is refused and old lock restored
+  ---
+  duration_ms: 1.888224
+  type: 'test'
+  ...
+# Subtest: unrelated version drift is rejected and rolled back
+ok 81 - unrelated version drift is rejected and rolled back
+  ---
+  duration_ms: 2.158232
+  type: 'test'
+  ...
+# Subtest: existing unrelated direct dependency mismatch is never auto-repaired
+ok 82 - existing unrelated direct dependency mismatch is never auto-repaired
+  ---
+  duration_ms: 1.093702
+  type: 'test'
+  ...
+# Subtest: unexpected npm manifest edit is rejected and restored
+ok 83 - unexpected npm manifest edit is rejected and restored
+  ---
+  duration_ms: 1.991556
+  type: 'test'
+  ...
+# Subtest: fresh checkout obtains lockfiles through npm, never locally invented hashes
+ok 84 - fresh checkout obtains lockfiles through npm, never locally invented hashes
+  ---
+  duration_ms: 1.081734
+  type: 'test'
+  ...
+# Subtest: failure on fresh checkout removes incomplete locks, not env or manifests
+ok 85 - failure on fresh checkout removes incomplete locks, not env or manifests
+  ---
+  duration_ms: 1.375127
+  type: 'test'
+  ...
+# Subtest: CI refuses outdated lockfiles without mutating them
+ok 86 - CI refuses outdated lockfiles without mutating them
+  ---
+  duration_ms: 0.938133
+  type: 'test'
+  ...
+# Subtest: CI accepts already patched frozen locks without migration
+ok 87 - CI accepts already patched frozen locks without migration
+  ---
+  duration_ms: 0.777476
+  type: 'test'
+  ...
+# Subtest: shrinkwrap precedence is never overlooked
+ok 88 - shrinkwrap precedence is never overlooked
+  ---
+  duration_ms: 0.808903
+  type: 'test'
+  ...
+# Subtest: old/unknown native runtime refused sharp 0.35.4
+ok 89 - old/unknown native runtime refused sharp 0.35.4
+  ---
+  duration_ms: 0.179455
+  type: 'test'
+  ...
+# Subtest: old/unknown native runtime refused vips 8.18.6
+ok 90 - old/unknown native runtime refused vips 8.18.6
+  ---
+  duration_ms: 0.619303
+  type: 'test'
+  ...
+# Subtest: old/unknown native runtime refused rsvg 2.63.1
+ok 91 - old/unknown native runtime refused rsvg 2.63.1
+  ---
+  duration_ms: 0.096172
+  type: 'test'
+  ...
+# Subtest: old/unknown native runtime refused rsvg undefined
+ok 92 - old/unknown native runtime refused rsvg undefined
+  ---
+  duration_ms: 0.056113
+  type: 'test'
+  ...
+# Subtest: fully patched runtime identity is accepted, without claiming online audit
+ok 93 - fully patched runtime identity is accepted, without claiming online audit
+  ---
+  duration_ms: 0.157702
+  type: 'test'
+  ...
+# Subtest: no SVG decoder does not require a nonexistent librsvg library
+ok 94 - no SVG decoder does not require a nonexistent librsvg library
+  ---
+  duration_ms: 0.14234
+  type: 'test'
+  ...
+# Subtest: each installed workspace Sharp is checked before native smoke callbacks
+ok 95 - each installed workspace Sharp is checked before native smoke callbacks
+  ---
+  duration_ms: 1.711744
+  type: 'test'
+  ...
+# Subtest: stale installed Sharp despite patched lock cannot pass
+ok 96 - stale installed Sharp despite patched lock cannot pass
+  ---
+  duration_ms: 1.056047
+  type: 'test'
+  ...
+# Subtest: audit matrix includes production and full dependencies in both workspaces
+ok 97 - audit matrix includes production and full dependencies in both workspaces
+  ---
+  duration_ms: 0.145795
+  type: 'test'
+  ...
+# Subtest: only complete zero-count zero-exit audit is reported as pass
+ok 98 - only complete zero-count zero-exit audit is reported as pass
+  ---
+  duration_ms: 0.193345
+  type: 'test'
+  ...
+# Subtest: audit rejects info finding even with misleading zero exit
+ok 99 - audit rejects info finding even with misleading zero exit
+  ---
+  duration_ms: 0.10168
+  type: 'test'
+  ...
+# Subtest: audit rejects low finding even with misleading zero exit
+ok 100 - audit rejects low finding even with misleading zero exit
+  ---
+  duration_ms: 0.057355
+  type: 'test'
+  ...
+# Subtest: audit rejects moderate finding even with misleading zero exit
+ok 101 - audit rejects moderate finding even with misleading zero exit
+  ---
+  duration_ms: 0.046859
+  type: 'test'
+  ...
+# Subtest: audit rejects high finding even with misleading zero exit
+ok 102 - audit rejects high finding even with misleading zero exit
+  ---
+  duration_ms: 0.044776
+  type: 'test'
+  ...
+# Subtest: audit rejects critical finding even with misleading zero exit
+ok 103 - audit rejects critical finding even with misleading zero exit
+  ---
+  duration_ms: 0.074871
+  type: 'test'
+  ...
+# Subtest: incomplete/inconsistent audit cannot turn green {"status":1,"stdout":"","stderr":"EAI_AGAIN"}
+ok 104 - incomplete/inconsistent audit cannot turn green {"status":1,"stdout":"","stderr":"EAI_AGAIN"}
+  ---
+  duration_ms: 0.107228
+  type: 'test'
+  ...
+# Subtest: incomplete/inconsistent audit cannot turn green {"status":0,"stdout":"{}"}
+ok 105 - incomplete/inconsistent audit cannot turn green {"status":0,"stdout":"{}"}
+  ---
+  duration_ms: 0.07427
+  type: 'test'
+  ...
+# Subtest: incomplete/inconsistent audit cannot turn green {"status":null,"stdout":"{\\"metadata\\":{\\"vulnerabilities\\":{\\"info\\":0,\\"low\\":0,\\"moderate\\":0,\\"high\\":0,\\"critical\\":0,\\"total\\":0}},\\"vulnerabilities\\":{}}"}
+ok 106 - incomplete/inconsistent audit cannot turn green {"status":null,"stdout":"{\\"metadata\\":{\\"vulnerabilities\\":{\\"info\\":0,\\"low\\":0,\\"moderate\\":0,\\"high\\":0,\\"critical\\":0,\\"total\\":0}},\\"vulnerabilities\\":{}}"}
+  ---
+  duration_ms: 0.039288
+  type: 'test'
+  ...
+# Subtest: incomplete/inconsistent audit cannot turn green {"status":0,"stdout":"{\\"metadata\\":{\\"vulnerabilities\\":{\\"info\\":0,\\"low\\":0,\\"moderate\\":0,\\"high\\":0,\\"critical\\":0,\\"total\\":0}},\\"vulnerabilities\\":{}}","stderr":"","error":{}}
+ok 107 - incomplete/inconsistent audit cannot turn green {"status":0,"stdout":"{\\"metadata\\":{\\"vulnerabilities\\":{\\"info\\":0,\\"low\\":0,\\"moderate\\":0,\\"high\\":0,\\"critical\\":0,\\"total\\":0}},\\"vulnerabilities\\":{}}","stderr":"","error":{}}
+  ---
+  duration_ms: 0.128379
+  type: 'test'
+  ...
+# Subtest: incomplete/inconsistent audit cannot turn green {"status":0,"stdout":"{\\"metadata\\":{\\"vulnerabilities\\":{\\"info\\":0,\\"low\\":0,\\"moderate\\":0,\\"high\\":0,\\"critical\\":0,\\"total\\":0}},\\"vulnerabilities\\":{}}","stderr":"","signal":"SIGTERM"}
+ok 108 - incomplete/inconsistent audit cannot turn green {"status":0,"stdout":"{\\"metadata\\":{\\"vulnerabilities\\":{\\"info\\":0,\\"low\\":0,\\"moderate\\":0,\\"high\\":0,\\"critical\\":0,\\"total\\":0}},\\"vulnerabilities\\":{}}","stderr":"","signal":"SIGTERM"}
+  ---
+  duration_ms: 0.072638
+  type: 'test'
+  ...
+# Subtest: incomplete/inconsistent audit cannot turn green {"status":1,"stdout":"{\\"metadata\\":{\\"vulnerabilities\\":{\\"info\\":0,\\"low\\":0,\\"moderate\\":0,\\"high\\":0,\\"critical\\":0,\\"total\\":0}},\\"vulnerabilities\\":{}}","stderr":""}
+ok 109 - incomplete/inconsistent audit cannot turn green {"status":1,"stdout":"{\\"metadata\\":{\\"vulnerabilities\\":{\\"info\\":0,\\"low\\":0,\\"moderate\\":0,\\"high\\":0,\\"critical\\":0,\\"total\\":0}},\\"vulnerabilities\\":{}}","stderr":""}
+  ---
+  duration_ms: 0.044606
+  type: 'test'
+  ...
+# Subtest: incomplete/inconsistent audit cannot turn green {"status":0,"stdout":"not json"}
+ok 110 - incomplete/inconsistent audit cannot turn green {"status":0,"stdout":"not json"}
+  ---
+  duration_ms: 0.052928
+  type: 'test'
+  ...
+# Subtest: incomplete/inconsistent audit cannot turn green {"status":0,"stdout":"{\\"error\\":{\\"code\\":\\"EAI_AGAIN\\"},\\"metadata\\":{\\"vulnerabilities\\":{\\"info\\":0,\\"low\\":0,\\"moderate\\":0,\\"high\\":0,\\"critical\\":0,\\"total\\":0}}}"}
+ok 111 - incomplete/inconsistent audit cannot turn green {"status":0,"stdout":"{\\"error\\":{\\"code\\":\\"EAI_AGAIN\\"},\\"metadata\\":{\\"vulnerabilities\\":{\\"info\\":0,\\"low\\":0,\\"moderate\\":0,\\"high\\":0,\\"critical\\":0,\\"total\\":0}}}"}
+  ---
+  duration_ms: 0.045898
+  type: 'test'
+  ...
+# Subtest: incomplete/inconsistent audit cannot turn green {"status":0,"stdout":"{\\"metadata\\":{\\"vulnerabilities\\":{\\"total\\":0}}}"}
+ok 112 - incomplete/inconsistent audit cannot turn green {"status":0,"stdout":"{\\"metadata\\":{\\"vulnerabilities\\":{\\"total\\":0}}}"}
+  ---
+  duration_ms: 0.059748
+  type: 'test'
+  ...
+# Subtest: incomplete/inconsistent audit cannot turn green {"status":0,"stdout":"{\\"metadata\\":{\\"vulnerabilities\\":{\\"info\\":0,\\"low\\":0,\\"moderate\\":0,\\"high\\":0,\\"critical\\":0,\\"total\\":0}},\\"vulnerabilities\\":{\\"sharp\\":{\\"severity\\":\\"high\\"}}}"}
+ok 113 - incomplete/inconsistent audit cannot turn green {"status":0,"stdout":"{\\"metadata\\":{\\"vulnerabilities\\":{\\"info\\":0,\\"low\\":0,\\"moderate\\":0,\\"high\\":0,\\"critical\\":0,\\"total\\":0}},\\"vulnerabilities\\":{\\"sharp\\":{\\"severity\\":\\"high\\"}}}"}
+  ---
+  duration_ms: 0.053299
+  type: 'test'
+  ...
+# Subtest: audit saves fresh per-scope evidence and fingerprints actual locks
+ok 114 - audit saves fresh per-scope evidence and fingerprints actual locks
+  ---
+  duration_ms: 3.523965
+  type: 'test'
+  ...
+# Subtest: one audit failure keeps global status failed while recording other completed scans
+ok 115 - one audit failure keeps global status failed while recording other completed scans
+  ---
+  duration_ms: 2.720821
+  type: 'test'
+  ...
+# Subtest: new failed audit replaces stale passed report rather than reusing it
+ok 116 - new failed audit replaces stale passed report rather than reusing it
+  ---
+  duration_ms: 2.373419
+  type: 'test'
+  ...
+# Subtest: release verification invokes the strict native and online security gates
+ok 117 - release verification invokes the strict native and online security gates
+  ---
+  duration_ms: 0.14232
+  type: 'test'
+  ...
+1..117
+# tests 117
+# suites 0
+# pass 117
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 197.258005
