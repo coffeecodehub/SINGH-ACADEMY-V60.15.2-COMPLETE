@@ -17,6 +17,9 @@ test('guest root is public while its full Team navigation still requires sign-in
  await page.setViewportSize({width:1440,height:900});const result=await page.goto('/');
  expect(result?.status()).toBe(200);await expect(page).toHaveURL('http://localhost:3000/');
  await expect(page.getByRole('heading',{level:1})).toBeVisible();
- await page.locator('header nav a').filter({hasText:/^Team$/}).click();
+ await page
+  .getByRole('navigation', { name: 'Main navigation' })
+  .getByRole('link', { name: 'Team' })
+  .click();
  await expect(page).toHaveURL(/\/login\?next=%2Fteam$/);
 });
